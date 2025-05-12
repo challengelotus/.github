@@ -13,3 +13,15 @@
 <p style="font-size:min(2vh, 36px); margin-top: 10px;">João Victor Soave - RM 557595</p>
 </a>
 </div>
+
+<a href="https://github.com/KStiliano" target="_blank" style="text-align: center; margin-right: 10px;">
+<img loading="lazy" src="https://avatars.githubusercontent.com/KStiliano" width=120>
+<p style="font-size:min(2vh, 36px); margin-top: 10px;">Kayky</p>
+</a>
+</div>
+
+<a href="https://github.com/pehenmendes" target="_blank" style="text-align: center; margin-right: 10px;">
+<img loading="lazy" src="https://avatars.githubusercontent.com/pehenmendes" width=120>
+<p style="font-size:min(2vh, 36px); margin-top: 10px;">Bradesco</p>
+</a>
+</div>
