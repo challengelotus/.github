@@ -1,6 +1,6 @@
 # Lotus Tech - Transformando a saúde com visão e propósito
 
-![]()
+<img src='LOTUS.png'>
 
 ## 💼 Sobre Nós
 
