@@ -1,12 +1,14 @@
 # Lotus Tech - Transformando a saúde com visão e propósito
 
+![]()
+
 ## 💼 Sobre Nós
 
 A **Lotus Tech** é uma equipe interdisciplinar dedicada a criar soluções tecnológicas para desafios reais na área da saúde. Nossa missão é desenvolver ferramentas inteligentes, acessíveis e escaláveis, com impacto direto na vida dos pacientes e na eficiência dos profissionais.
 
 ## Parcerias
 
-![Texto alternativo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCY2AMSfnqDKb1EHUv4MKIQUV8XeM-AAe6EQ&s)
+![Parcerias](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCY2AMSfnqDKb1EHUv4MKIQUV8XeM-AAe6EQ&s)
 
 ## 👥 Colaboradores
 
