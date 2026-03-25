@@ -32,7 +32,7 @@ A **Lotus Tech** é uma equipe interdisciplinar dedicada a criar soluções tecn
 
 <a href="https://github.com/pehenmendes" target="_blank" style="text-align: center; margin-right: 10px;">
 <img loading="lazy" src="https://avatars.githubusercontent.com/pehenmendes" width=120>
-<p style="font-size:min(2vh, 36px); margin-top: 10px;">Bradesco</p>
+<p style="font-size:min(2vh, 36px); margin-top: 10px;">Pedro Henrique Mendes dos Santos</p>
 </a>
 </div>
 
