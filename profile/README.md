@@ -16,23 +16,22 @@ A **Lotus Tech** é uma equipe interdisciplinar dedicada a criar soluções tecn
 <a href="https://github.com/Malice112" target="_blank" style="text-align: center; margin-right: 10px;">
 <img loading="lazy" src="https://ih1.redbubble.net/image.2517271799.2840/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" width=120>
 <p style="font-size:min(2vh, 36px); margin-top: 10px;">Maria Alice Freitas Araújo RM557516</p>
-</a>
 
 <a href="https://github.com/jaoAprendiz" target="_blank" style="text-align: center; margin-right: 10px;">
 <img loading="lazy" src="https://avatars.githubusercontent.com/jaoAprendiz" width=120>
 <p style="font-size:min(2vh, 36px); margin-top: 10px;">João Victor Soave - RM 557595</p>
-</a>
-</div>
-
-<a href="https://github.com/KStiliano" target="_blank" style="text-align: center; margin-right: 10px;">
-<img loading="lazy" src="https://avatars.githubusercontent.com/KStiliano" width=120>
-<p style="font-size:min(2vh, 36px); margin-top: 10px;">Kayky</p>
-</a>
-</div>
 
 <a href="https://github.com/pehenmendes" target="_blank" style="text-align: center; margin-right: 10px;">
 <img loading="lazy" src="https://avatars.githubusercontent.com/pehenmendes" width=120>
 <p style="font-size:min(2vh, 36px); margin-top: 10px;">Pedro Henrique Mendes dos Santos</p>
+
+<a href="https://github.com/uBittencourt" target="_blank" style="text-align: center; margin-right: 10px;">
+<img loading="lazy" src="https://i.pinimg.com/736x/0e/93/da/0e93da007f33d609bd71043eec7c9213.jpg" width=120>
+<p style="font-size:min(2vh, 36px); margin-top: 10px;">Vinicius Fernandes Tavares Bittencourt</p>
+
+<a href="https://github.com/rt-lucena" target="_blank" style="text-align: center; margin-right: 10px;">
+<img loading="lazy" src="https://i.pinimg.com/736x/18/0e/fc/180efc3227b70e92b88fd3e71826fbad.jpg" width=120>
+<p style="font-size:min(2vh, 36px); margin-top: 10px;">Rafael Teofilo Lucena</p>
 </a>
 </div>
 
