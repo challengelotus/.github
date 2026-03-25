@@ -14,7 +14,7 @@ A **Lotus Tech** é uma equipe interdisciplinar dedicada a criar soluções tecn
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
 <a href="https://github.com/Malice112" target="_blank" style="text-align: center; margin-right: 10px;">
-<img loading="lazy" src="https://avatars.githubusercontent.com/Malice112" width=120>
+<img loading="lazy" src="https://ih1.redbubble.net/image.2517271799.2840/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" width=120>
 <p style="font-size:min(2vh, 36px); margin-top: 10px;">Maria Alice Freitas Araújo RM557516</p>
 </a>
 
