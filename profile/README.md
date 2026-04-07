@@ -22,7 +22,7 @@ A **Lotus Tech** é uma equipe interdisciplinar dedicada a criar soluções tecn
 <p style="font-size:min(2vh, 36px); margin-top: 10px;">João Victor Soave - RM 557595</p>
 
 <a href="https://github.com/pehenmendes" target="_blank" style="text-align: center; margin-right: 10px;">
-<img loading="lazy" src="https://avatars.githubusercontent.com/pehenmendes" width=120>
+<img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Qhc8gyUfQcl0imXGLOUNamU8ugmXW_iSbA&s" width=120>
 <p style="font-size:min(2vh, 36px); margin-top: 10px;">Pedro Henrique Mendes dos Santos</p>
 
 <a href="https://github.com/uBittencourt" target="_blank" style="text-align: center; margin-right: 10px;">
