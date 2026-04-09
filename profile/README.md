@@ -18,7 +18,7 @@ A **Lotus Tech** é uma equipe interdisciplinar dedicada a criar soluções tecn
 <p style="font-size:min(2vh, 36px); margin-top: 10px;">Maria Alice Freitas Araújo RM557516</p>
 
 <a href="https://github.com/jaoAprendiz" target="_blank" style="text-align: center; margin-right: 10px;">
-<img loading="lazy" src="https://avatars.githubusercontent.com/jaoAprendiz" width=120>
+<img loading="lazy" src="https://i.pinimg.com/736x/32/6a/4e/326a4e68de3f5e63327464e7c703994d.jpg" width=120>
 <p style="font-size:min(2vh, 36px); margin-top: 10px;">João Victor Soave - RM 557595</p>
 
 <a href="https://github.com/pehenmendes" target="_blank" style="text-align: center; margin-right: 10px;">
