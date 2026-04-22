@@ -74,7 +74,7 @@ Equipe responsável pela concepção, desenvolvimento e entrega do desafio.
 
 <a href="https://github.com/rt-lucena" target="_blank" style="text-align: center; text-decoration: none; color: inherit;">
   <img loading="lazy" src="https://i.pinimg.com/736x/18/0e/fc/180efc3227b70e92b88fd3e71826fbad.jpg" width="100" style="border-radius: 50%;">
-  <p><strong>Rafael Lucena</strong><br>RM??????</p>
+  <p><strong>Rafael Lucena</strong><br>RM555600</p>
 </a>
 
 </div>
