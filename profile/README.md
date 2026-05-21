@@ -68,7 +68,7 @@ Equipe responsável pela concepção, desenvolvimento e entrega do desafio.
 </a>
 
 <a href="https://github.com/uBittencourt" target="_blank" style="text-align: center; text-decoration: none; color: inherit;">
-  <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnbiV1AzMlAkb-S6Cl2u_O3uAk4i9TrrkkIg&s" width="100" style="border-radius: 50%;">
+  <img loading="lazy" src="https://i.pinimg.com/736x/5a/c0/d4/5ac0d4a0f46d0abcc58129abe6aa071d.jpg" width="100" style="border-radius: 50%;">
   <p><strong>Vinicius Bittencourt</strong><br>RM??????</p>
 </a>
 
