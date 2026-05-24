@@ -58,7 +58,7 @@ Equipe responsável pela concepção, desenvolvimento e entrega do desafio.
 </a>
 
 <a href="https://github.com/jaoAprendiz" target="_blank" style="text-align: center; text-decoration: none; color: inherit;">
-  <img loading="lazy" src="https://i.pinimg.com/736x/32/6a/4e/326a4e68de3f5e63327464e7c703994d.jpg" width="100" style="border-radius: 50%;">
+  <img loading="lazy" src="https://i.redd.it/a3d7datyrfpg1.png" width="100" style="border-radius: 50%;">
   <p><strong>João Victor</strong><br>RM557595</p>
 </a>
 
