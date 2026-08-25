@@ -68,12 +68,12 @@ Equipe responsável pela concepção, desenvolvimento e entrega do desafio.
 </a>
 
 <a href="https://github.com/uBittencourt" target="_blank" style="text-align: center; text-decoration: none; color: inherit;">
-  <img loading="lazy" src="https://i.pinimg.com/736x/5a/c0/d4/5ac0d4a0f46d0abcc58129abe6aa071d.jpg" width="100" style="border-radius: 50%;">
+  <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaGCAkWH31uZRqPjy8wCLG4lMTJ31jv59MvAabHWQkzg&s=10" width="100" style="border-radius: 50%;">
   <p><strong>Vinicius Bittencourt</strong><br>RM??????</p>
 </a>
 
 <a href="https://github.com/rt-lucena" target="_blank" style="text-align: center; text-decoration: none; color: inherit;">
-  <img loading="lazy" src="https://i.pinimg.com/474x/90/16/d3/9016d33952b2b4fcf468cae47cf33049.jpg" width="100" style="border-radius: 50%;">
+  <img loading="lazy" src="https://i.pinimg.com/236x/13/a8/aa/13a8aa0571337b9b951bc6e58d9292bd.jpg" width="100" style="border-radius: 50%;">
   <p><strong>Rafael Lucena</strong><br>RM555600</p>
 </a>
 
