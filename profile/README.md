@@ -58,8 +58,8 @@ Equipe responsável pela concepção, desenvolvimento e entrega do desafio.
 </a>
 
 <a href="https://github.com/jaoAprendiz" target="_blank" style="text-align: center; text-decoration: none; color: inherit;">
-  <img loading="lazy" src="https://i.redd.it/a3d7datyrfpg1.png" width="100" style="border-radius: 50%;">
-  <p><strong>João Victor</strong><br>RM557595</p>
+  <img loading="lazy" src="https://i.pinimg.com/564x/4a/42/94/4a4294ddbda14cc1b33063f58c15ff22.jpg" width="100" style="border-radius: 50%;">
+  <p><strong>João Soave</strong><br>RM557595</p>
 </a>
 
 <a href="https://github.com/pehenmendes" target="_blank" style="text-align: center; text-decoration: none; color: inherit;">
