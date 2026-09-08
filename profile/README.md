@@ -1,94 +1,110 @@
-# ☁️ Nimbus – Inteligência que acelera decisões
-
-Somos uma startup fictícia criada para o desafio **Ford FIAP 2026**.  
-Nosso propósito é transformar dados dispersos em inteligência competitiva de alto valor, com soluções leves, modernas e orientadas a serviços.
-
----
-
-## 🚗 Projeto: Ford Commercial Intelligence
-
-**Desafio 01 – Inteligência Competitiva Automotiva**  
-Automatizar a coleta e padronização de fichas técnicas de veículos concorrentes, utilizando **web scraping**, **LLM local** e uma **API RESTful** para consulta e cache de resultados.
-
-> De 1 hora por versão (manual) para segundos com IA.
-
----
-
-## 🧠 Stack tecnológica
-
-| Camada           | Tecnologia                                                       |
-| ---------------- | ---------------------------------------------------------------- |
-| Frontend         | React + Tailwind CSS                                             |
-| Backend (API)    | Python + FastAPI                                                 |
-| Coleta de dados  | Requests + BeautifulSoup (Selenium opcional)                    |
-| IA / NLP         | Ollama + Llama 3.2 (local e gratuito)                            |
-| Banco de dados   | SQLite (cache de resultados)                                     |
-| Documentação API | Swagger UI + ReDoc (automático)                                  |
-| Versionamento    | Git + GitHub                                                     |
-
----
-
-## 🧱 Arquitetura enxuta (MVP)
-[React] → [FastAPI] → [SQLite cache] → (se necessário) → [Scrapers] → [LLM local]
-- Backend síncrono e minimalista (sem filas ou orquestradores complexos)
-- Cache inteligente evita reprocessamento do mesmo veículo
-- Pronto para evoluir para microsserviços no futuro
-
----
-
-## 📦 Repositórios do projeto
-
-| Repositório                         | Descrição                                         |
-| ----------------------------------- | ------------------------------------------------- |
-| `nimbus/ford-commercial-intel`      | Código principal (backend + frontend)            |
-| `nimbus/llm-models` (opcional)      | Configuração do Ollama e modelos baixados         |
-| `nimbus/docs`                       | Diagramas, slides e documentação acadêmica       |
-
----
-
-## 👥 Colaboradores
-
-Equipe responsável pela concepção, desenvolvimento e entrega do desafio.
-
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
-
-<a href="https://github.com/Malice112" target="_blank" style="text-align: center; text-decoration: none; color: inherit;">
-  <img loading="lazy" src="https://ih1.redbubble.net/image.2517271799.2840/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" width="100" style="border-radius: 50%;">
-  <p><strong>Maria Alice</strong><br>RM557516</p>
-</a>
-
-<a href="https://github.com/jaoAprendiz" target="_blank" style="text-align: center; text-decoration: none; color: inherit;">
-  <img loading="lazy" src="https://i.pinimg.com/564x/4a/42/94/4a4294ddbda14cc1b33063f58c15ff22.jpg" width="100" style="border-radius: 50%;">
-  <p><strong>João Soave</strong><br>RM557595</p>
-</a>
-
-<a href="https://github.com/pehenmendes" target="_blank" style="text-align: center; text-decoration: none; color: inherit;">
-  <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Qhc8gyUfQcl0imXGLOUNamU8ugmXW_iSbA&s" width="100" style="border-radius: 50%;">
-  <p><strong>Pedro Henrique</strong><br>RM555332</p>
-</a>
-
-<a href="https://github.com/uBittencourt" target="_blank" style="text-align: center; text-decoration: none; color: inherit;">
-  <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaGCAkWH31uZRqPjy8wCLG4lMTJ31jv59MvAabHWQkzg&s=10" width="100" style="border-radius: 50%;">
-  <p><strong>Vinicius Bittencourt</strong><br>RM??????</p>
-</a>
-
-<a href="https://github.com/rt-lucena" target="_blank" style="text-align: center; text-decoration: none; color: inherit;">
-  <img loading="lazy" src="https://i.pinimg.com/236x/13/a8/aa/13a8aa0571337b9b951bc6e58d9292bd.jpg" width="100" style="border-radius: 50%;">
-  <p><strong>Rafael Lucena</strong><br>RM555600</p>
-</a>
-
+<div align="center">
+  <h1>☁️ Nimbus</h1>
+  <p><em>Inteligência que acelera decisões</em></p>
+  <p>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+    <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+    <img src="https://img.shields.io/badge/Scrapy-60A5FA?style=for-the-badge&logo=python&logoColor=white" alt="Scrapy"/>
+    <img src="https://img.shields.io/badge/AI_%26_LLMs-FF6F00?style=for-the-badge&logo=google-gemini&logoColor=white" alt="AI & LLMs"/>
+    <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="License MIT"/>
+  </p>
+  <p>
+    <b>Status da Organização:</b> 🚀 Operando Soluções para o Desafio FIAP 2026 
+  </p>
 </div>
 
+## 📌 O Problema
+
+No mercado corporativo moderno, a informação é o ativo mais valioso. No entanto, você já parou para pensar no custo de obter essas informações?
+
+- ❌ Horas desperdiçadas por equipes mapeando dados de concorrentes manualmente pela internet.
+- ❌ Informações técnicas dispersas em formatos não estruturados (textos, vídeos, PDFs).
+- ❌ Inconsistência de dados causados por erros de digitação humana.
+- ❌ Lentidão na tomada de decisão estratégica por falta de consolidação rápida do cenário competitivo.
+
+**Essa é a realidade de grandes corporações na área de inteligência de mercado.** A falta de automação inteligente atrasa análises e gera custos operacionais altíssimos. A **Nimbus** nasceu para acabar com esse problema.
+
 ---
 
-## 📄 Licença
+## 🚀 A Solução (Proposta de Valor)
 
-Este projeto é acadêmico e sem vínculo comercial direto. Todos os dados coletados são de fontes públicas e utilizados exclusivamente para fins educacionais.
+A **Nimbus** é uma startup focada em transformar dados brutos da internet em **inteligência competitiva de alto valor**. Nós substituímos o trabalho braçal por orquestração de Inteligência Artificial. Nós oferecemos:
+
+- **Coleta Autônoma:** Varreduras invisíveis e eficientes (Web Scraping) em sites oficiais, portais de notícias e transcrições de vídeos.
+- **Leitura Cognitiva (IA):** Modelos de Linguagem (LLMs) treinados para ler milhares de linhas de texto e extrair apenas os atributos técnicos que importam.
+- **Consenso Algorítmico:** Nosso sistema resolve divergências de informações cruzando dados e dando pesos maiores para fontes oficiais.
+- **Velocidade Extrema:** O que uma equipe humana leva horas para mapear, nossos pipelines entregam estruturado (em JSON) em questão de segundos.
+
+*Nossa promessa é entregar dados limpos, padronizados e prontos para o consumo, permitindo que as empresas foquem na estratégia, não na pesquisa manual.*
 
 ---
 
-## 🏁 Status
+## 🎯 Nossa Proposta para 2026 (O Desafio Ford)
 
-✅ Estrutura definida  
-⏳ Em desenvolvimento ativo  
-🎯 Entrega prevista: conforme cronograma FIAP 2026
+Para o ano de 2026, estamos direcionando 100% de nossa capacidade tecnológica para o **Desafio Ford FIAP**. 
+
+Nosso grande *case* do ano é o projeto **Ford Commercial Intelligence**, um ecossistema desenvolvido para a equipe de marketing da Ford. O objetivo? Automatizar o benchmarking de veículos concorrentes (como picapes médias), criando um banco de dados vivo e em tempo real sobre motores, dimensões, capacidades de carga e tecnologias do mercado automotivo.
+
+> **Métrica de Sucesso:** Reduzir o tempo de pesquisa técnica de *1 hora por versão de veículo* para *menos de 10 segundos*.
+
+---
+
+## ✨ Nossas Soluções Focadas em IA
+
+A arquitetura da Nimbus não é apenas um sistema de software, é um pipeline de dados inteligente:
+
+- 🧠 **LLM as a Service:** Utilização de modelos avançados (como Llama 3.2 / GPT-OSS) integrados diretamente via API ou localmente, isolando o contexto para evitar alucinações.
+- ⚖️ **Votação Ponderada:** Um sistema exclusivo que analisa de onde a IA tirou a informação. Se o "Site Oficial" e o "YouTube" divergirem sobre a potência de um motor, a matemática da Nimbus decide o valor verdadeiro baseada em confiabilidade.
+- 🛡️ **Prompt Engineering Blindado:** Engenharia de contexto restrita para garantir que a saída da IA seja sempre matemática, no sistema métrico correto e em formato JSON estruturado.
+
+---
+
+## 🛠️ Stack Tecnológica (MVP)
+
+Acreditamos no desenvolvimento de arquiteturas leves, assíncronas e prontas para evoluir para microsserviços.
+
+| Camada | Tecnologia Principal |
+| :--- | :--- |
+| **Frontend & UI** | React, Tailwind CSS |
+| **Backend (API API)** | Python 3.11+, FastAPI |
+| **Engenharia de Dados** | Scrapy, BeautifulSoup, Requests |
+| **Inteligência Artificial** | Ollama, Groq API, Engenharia de Prompts Avançada |
+| **Armazenamento / Cache** | SQLite (Persistência e Cache inteligente) |
+| **Documentação** | Swagger UI (OpenAPI), ReDoc |
+
+---
+
+## 📦 Repositórios da Organização
+
+| Repositório | Descrição |
+| :--- | :--- |
+| 🚙 [`Inteligência Ford`](https://github.com/challengelotus/projeto-ford-inteligencia) | Aplicação principal do desafio (Backend FastAPI + Frontend React + Web Scraping). |
+| 🧠 [`Motor SAST & DevSecOps`](https://github.com/challengelotus/checkpoint4-cyber-sast-platform) | Análise Estática de Segurança e Rastreamento de Vulnerabilidades com IA |
+| 📚 [`Petin`](https://github.com/challengelotus/checkpoint4-mdi-petin) | Aplicativo React Native para gestão de vacinas, consultas e rotina de pets. |
+
+---
+
+## 👥 A Equipe Nimbus
+
+Somos a mente por trás da inteligência. Desenvolvido por especialistas multidisciplinares em engenharia de software e IA.
+
+| Papel na Startup | Integrante | RM |
+| :--- | :--- | :--- |
+| **IA & Prompt Engineering (Líder Técnico)** | João Victor Soave | RM557595 |
+| **Engenharia de Integração & Segurança** | Pedro Henrique Mendes | RM555332 |
+| **Engenharia de Dados & Web Scraping** | Vinícius Bittencourt | RM558909 |
+| **Arquitetura de Banco de Dados** | Rafael Lucena | RM555600 |
+| **Design System & Frontend (UI/UX)** | Maria Alice Freitas | RM557516 |
+
+---
+
+## 📄 Licença e Manifesto
+
+Este é um projeto acadêmico de código aberto desenvolvido sem vínculo comercial direto, criado exclusivamente para o **Desafio Ford FIAP 2026**. Todos os dados processados derivam de fontes públicas e acessíveis, sendo utilizados para fins de pesquisa, inovação educacional e validação tecnológica.
+
+---
+
+<div align="center">
+  <sub>Desenvolvido com ☁️ e inteligência pela equipe Nimbus.</sub>
+</div>
